@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb02f6b0e207f14590f7752fee8dbff, type: 3}
   m_Name: Rocks
   m_EditorClassIdentifier: 
-  radius: 14
+  radius: 8
   spawnableObjects:
-  - {fileID: 100000, guid: 4307217325968e540a347b9abb422e9f, type: 3}
-  - {fileID: 100000, guid: 22dacb91ac2ba4041b3fd4357705d362, type: 3}
-  - {fileID: 100000, guid: 0cac15cdbb306fd4896c4a74572ccb15, type: 3}
+  - {fileID: 5009684498773614584, guid: 8641cbe26ed027240bf315ad778c5242, type: 3}
+  - {fileID: 7810884205618478028, guid: 43a79ab31c5df89478a0a2f59fd7cb15, type: 3}
+  - {fileID: 2202497988800850157, guid: 01af5b3f092e054489b4dc7b79255322, type: 3}
   numToSpawn: 8
-  objectSpawnThreshold: 3
+  objectSpawnThreshold: 2
   canRotate: 0
