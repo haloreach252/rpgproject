@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb02f6b0e207f14590f7752fee8dbff, type: 3}
+  m_Name: Flower
+  m_EditorClassIdentifier: 
+  radius: 10
+  spawnableObjects:
+  - {fileID: 100000, guid: 06012ef19778cea40980755b6e5ba8b3, type: 3}
+  - {fileID: 100000, guid: 59008a5571bb3f64093b5deaa1f11cc4, type: 3}
+  - {fileID: 100000, guid: 8e9ccefa550d7964cbcf0d7c78e2a27e, type: 3}
+  - {fileID: 100000, guid: 23ceb65c0fc5c96488e3952a09476195, type: 3}
+  - {fileID: 100000, guid: a6b321d8678d8e6458bc7f8a06f9140e, type: 3}
+  - {fileID: 100000, guid: eb1c786cb67dabb40b53cfe4a21ff661, type: 3}
+  - {fileID: 100000, guid: 65a7527305bcbe947b36740b252a1695, type: 3}
+  - {fileID: 100000, guid: 4b2a8c38fe2b08843b146ae2b863e9c1, type: 3}
+  - {fileID: 100000, guid: 5b4d1c45782599445a21bbdebfe53f49, type: 3}
+  numToSpawn: 25
+  objectSpawnThreshold: 0.2
+  canRotate: 1
