@@ -23,6 +23,6 @@ MonoBehaviour:
   - {fileID: 100000, guid: 65a7527305bcbe947b36740b252a1695, type: 3}
   - {fileID: 100000, guid: 4b2a8c38fe2b08843b146ae2b863e9c1, type: 3}
   - {fileID: 100000, guid: 5b4d1c45782599445a21bbdebfe53f49, type: 3}
-  numToSpawn: 25
+  numToSpawn: 50
   objectSpawnThreshold: 0.2
   canRotate: 1

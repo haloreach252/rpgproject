@@ -27,25 +27,20 @@ public class PlayerMove : MonoBehaviour {
         anim.SetInteger("state", 0); // 0 IS IDLE, 1 IS FORWARD, 2 IS BACKWARD, 3 IS JUMP
         if (Input.GetKey(KeyCode.W)) {
             anim.SetInteger("state", 1);
-            transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
-            //rb.AddRelativeForce(Vector3.forward * moveSpeed * Time.deltaTime);
+            //transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+            rb.AddRelativeForce(Vector3.forward * moveSpeed);
         }
 
         if (Input.GetKey(KeyCode.S)) {
             anim.SetInteger("state", 2);
-            transform.Translate(Vector3.back * moveSpeed * Time.deltaTime);
-            //rb.AddRelativeForce(Vector3.back * moveSpeed * Time.deltaTime);
+            //transform.Translate(Vector3.back * moveSpeed * Time.deltaTime);
+            rb.AddRelativeForce(Vector3.back * moveSpeed);
         }
 
         if (Input.GetKeyDown(KeyCode.Space)) {
             anim.SetInteger("state", 3);
-            transform.Translate(Vector3.up * jumpForce * Time.deltaTime);
-            //rb.AddForce(Vector3.up * jumpForce * Time.deltaTime);
+            //transform.Translate(Vector3.up * jumpForce * Time.deltaTime);
+            rb.AddForce(Vector3.up * jumpForce);
         }
-
-        if (Input.GetKeyDown(KeyCode.A)) {
-            anim.SetInteger("state", 5);
-        }
-
     }
 }
