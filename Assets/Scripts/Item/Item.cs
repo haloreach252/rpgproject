@@ -1,18 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Item : MonoBehaviour {
+[Serializable]
+[CreateAssetMenu(menuName = "Create New Item")]
+public class Item : ScriptableObject {
 
-    protected long itemId;
-    protected string itemName;
+    public long itemId;
+    public string itemName;
+    public string itemDescription;
+    public Sprite itemIcon;
 
-    private void Start() {
-        
-    }
+    public int price;
 
-    private void Update() {
-        
+    public int stackSize;
+
+    public EntityStats statRequirement;
+    public int levelRequirement;
+
+    public virtual void Use() {
+
     }
 
 }

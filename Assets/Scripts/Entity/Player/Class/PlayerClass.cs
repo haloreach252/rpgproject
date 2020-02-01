@@ -12,11 +12,5 @@ public class PlayerClass : MonoBehaviour {
     protected int classIntellect;
     protected int classDexterity;
 
-    private void Start() {
-        
-    }
-
-    private void Update() {
-        
-    }
+    
 }
